@@ -25,7 +25,7 @@ prediction_days = user_input_features()
 
 
 # Loading trained model and making predictions
-loaded_model = pickle.load(open("sarima-fitted-model.pickle", "rb"))
+loaded_model = pickle.load(open("C:\\Users\\Hp\\Desktop\\sarima-fitted-model.pickle", "rb"))
 predictions = loaded_model.forecast(436 + prediction_days)
 
 
